@@ -1,48 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#d2f508"
-    tools:context="com.iesvirgendelcarmen.dam.recuperacion09.MainActivity">
+    android:background="#fff700">
 
     <TextView
         android:id="@+id/texto1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ESCALADO EN JAVA"
+        android:text="TRABAJANDO CON BITMAP"
         android:textColor="#0307f9"
+        android:textSize="20dp"
         android:textStyle="bold"
-        android:gravity="center"
-        android:textSize="20dp"/>
+        android:gravity="center"/>
 
     <TextView
         android:id="@+id/texto2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="INICIAL"
+        android:text="TIEMPO DE PROCESADO"
         android:gravity="center"
         android:textColor="#f00"
         android:textStyle="bold"/>
 
     <Button
-        android:id="@+id/iniciar"
+        android:id="@+id/reescalar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="iniciar"/>
-
-    <Button
-        android:id="@+id/detener"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="detener"/>
+        android:text="Reescalar Bitmap"/>
 
     <ImageView
         android:id="@+id/imagen"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"/>
-
+        android:layout_height="match_parent"
+        android:src="@drawable/leonardo"/>
 
 </LinearLayout>
