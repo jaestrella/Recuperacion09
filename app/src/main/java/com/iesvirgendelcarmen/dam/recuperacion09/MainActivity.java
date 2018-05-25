@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
                 alto=imagen.getMeasuredHeight();
                 ratio=ancho/alto;
                 double padding=(ancho-ratio)/2;
-                texto2.append("\n"+"NUEVO ANCHO= "+ancho+" PADDING= "+padding);
+                texto2.append("\n"+"NUEVO ANCHO= "+ancho+" NUEVO ALTO "+alto+" RATIO= "+ratio+" PADDING= "+padding);
             }
         });
         detener.setOnClickListener(new View.OnClickListener() {
