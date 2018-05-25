@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d2f508"
+    tools:context="com.iesvirgendelcarmen.dam.recuperacion09.MainActivity">
+
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ESCALADO EN JAVA"
+        android:textColor="#0307f9"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INICIAL"
+        android:gravity="center"
+        android:textColor="#f00"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/iniciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="iniciar"/>
+
+    <Button
+        android:id="@+id/detener"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="detener"/>
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"/>
+
+
+</LinearLayout>
