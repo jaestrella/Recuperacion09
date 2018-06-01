@@ -1,5 +1,6 @@
 package com.iesvirgendelcarmen.dam.recuperacion09;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.drawable.AnimationDrawable;
 import android.graphics.drawable.Drawable;
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         iniciar=(Button)findViewById(R.id.iniciar);
         detener=(Button)findViewById(R.id.detener);
         imagen=(ImageView)findViewById(R.id.imagen);
+
 
         Resources recursos=getResources();
         Drawable imagen1= recursos.getDrawable(R.drawable.boccaccino);

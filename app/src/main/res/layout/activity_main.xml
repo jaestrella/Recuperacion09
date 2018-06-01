@@ -39,10 +39,11 @@
         android:layout_height="wrap_content"
         android:text="detener"/>
 
-    <ImageView
-        android:id="@+id/imagen"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"/>
+    <Button
+        android:id="@+id/actividad05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="actividad05"/>
 
 
 </LinearLayout>

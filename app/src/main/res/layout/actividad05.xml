@@ -7,34 +7,41 @@
     android:background="#fff700">
 
     <TextView
-        android:id="@+id/texto1"
+        android:id="@+id/t1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TRABAJANDO CON BITMAP"
-        android:textColor="#0307f9"
-        android:textSize="20dp"
+        android:width="1dp"
+        android:textColor="#122222"
         android:textStyle="bold"
-        android:gravity="center"/>
+        android:text="TRABAJANDO CON BITMAP"
+        android:textSize="20dp"
+        android:gravity="center"
+        />
 
     <TextView
-        android:id="@+id/texto2"
+        android:id="@+id/t2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TIEMPO DE PROCESADO"
+        android:width="1dp"
         android:gravity="center"
-        android:textColor="#f00"
-        android:textStyle="bold"/>
+        android:text="TIEMPO DE PROCESADO"
+        />
 
     <Button
-        android:id="@+id/reescalar"
+        android:id="@+id/boton"
         android:layout_width="match_parent"
+        android:width="1dp"
         android:layout_height="wrap_content"
-        android:text="Reescalar Bitmap"/>
+        android:text="REESCALAR BITMAP"
+        />
 
     <ImageView
         android:id="@+id/imagen"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:src="@drawable/leonardo"/>
+        android:width="1dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/leonardo"
+        />
+
 
 </LinearLayout>
